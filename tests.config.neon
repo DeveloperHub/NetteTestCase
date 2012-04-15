@@ -1,0 +1,12 @@
+#
+# Konfiguracni soubor NetteTestCase
+# - vlastni konfiguracni soubor mate k dispozici v tests/
+#
+
+common:
+
+	services:
+		form:
+			class: \NetteTestCase\Form
+
+console < common:

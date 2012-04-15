@@ -1,0 +1,14 @@
+#!/usr/bin/php
+<?php
+
+include("./libs/NetteTestCase/framework/Hooks/HookTest.php");
+
+/**
+ * Pred metodou run, muzete nastavit dalsi parametry pro PHPUnit
+ * <code>
+ * $hk->setOptions("--group unit");
+ * </code>
+ */
+$hk = new NetteTestCase\Framework\HookTest;
+$hk->setOptions("--group unit");
+$hk->run();
