@@ -8,7 +8,7 @@
  */
 
 // cesta k PHPUnit Frameworku
-$dir = "./libs/NetteTestCase/framework/PHPUnit/";
+$dir = "./libs/NetteTestCase/framework/PhpUnit/";
 
 // pridani trid PHPUnit do include path
 $paths = scandir( $dir );
