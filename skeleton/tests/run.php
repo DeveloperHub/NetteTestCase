@@ -4,7 +4,7 @@
  * Spoustec NetteTestCase
  *
  * php tests/run.php
- * @author RDPanek <rdpanek@gmail.com> { DeveloperHub
+ * @author RDPanek <rdpanek@gmail.com>
  */
 
 // cesta k PHPUnit Frameworku

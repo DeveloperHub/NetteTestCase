@@ -9,7 +9,7 @@
 
 namespace NetteTestCase;
 
-require_once 'NetteTestCase.php';
+require_once TESTS_DIR . 'NetteTestCase.php';
 
 class TestCase extends \PHPUnit_Framework_TestCase
 {
@@ -19,6 +19,11 @@ class TestCase extends \PHPUnit_Framework_TestCase
 	{
 		$nt = new NetteTestCase;
 		$this->context = $nt->getContext();
+	}
+
+	public function d( $val )
+	{
+		dump( $val ); die();
 	}
 
 }

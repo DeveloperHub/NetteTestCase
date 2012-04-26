@@ -16,7 +16,7 @@ class NetteTestCase
 
 	public function getContext()
 	{
-		\Nette\Diagnostics\Debugger::enable(true);
+		\Nette\Diagnostics\Debugger::enable(false);
 
 		// Configure application
 		$configurator = new \Nette\Config\Configurator;
@@ -33,7 +33,7 @@ class NetteTestCase
 		$configurator->addConfig( APP_DIR . 'config/config.neon', 'console')
 
 		// Konfiguracni soubor NetteTestCase
-		->addConfig( __DIR__ . '/tests.config.neon', 'console')
+		->addConfig( LIBS_DIR . 'NetteTestCase/tests.config.neon', 'console')
 
 		// Konfiguracni soubor testovane aplikace
 		->addConfig( TESTS_DIR . 'tests.config.local.neon', 'console');
