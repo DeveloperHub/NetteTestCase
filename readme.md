@@ -8,7 +8,7 @@ NetteTestCase
 Instalace NetteTestCase
 -----------------------
 * naklonovani externiho repozitare
-	$ git submodule add git@github.com:Radim-Daniel-Panek/NetteTestCase.git libs/NetteTestCase
+	$ git submodule add git@github.com:DeveloperHub/NetteTestCase.git libs/NetteTestCase
 * v rootu projektu se vytvori sobor .gitmodules, ktery predstavuje konfiguracni soubor, v nemz je ulozeno mapovani
 	mezi adresou URL projektu a lokalnim podadresarem NetteTestCase
 * hostujici projekt je nyni povysen na "super projekt"
